@@ -4,8 +4,6 @@ Two end-to-end [KNIME Analytics Platform](https://www.knime.com/) workflows buil
 
 Both workflows are also public on my KNIME Hub profile: **[hub.knime.com/tugbaates](https://hub.knime.com/tugbaates)** — open them there to explore the node graph interactively in the browser.
 
-A detailed, step-by-step write-up with the exact node settings and reasoning behind each step is in [`docs/Tugba_Ates_KNIME_Portfolio_Detailed.pdf`](docs/Tugba_Ates_KNIME_Portfolio_Detailed.pdf). A short two-page summary is in [`docs/Tugba_Ates_KNIME_Portfolio.pdf`](docs/Tugba_Ates_KNIME_Portfolio.pdf).
-
 ---
 
 ## 1. [Spotify Tracks Analysis](spotify-tracks-analysis)
@@ -64,9 +62,8 @@ The **KNIME Analytics Platform** category dominates recent activity by a wide ma
 knime-data-projects/
 ├── spotify-tracks-analysis/
 │   └── workflow/          # KNIME workflow source (open with KNIME Analytics Platform)
-├── knime-forum-trends/
-│   └── workflow/          # KNIME workflow source
-└── docs/                  # PDF write-ups (short + detailed)
+└── knime-forum-trends/
+    └── workflow/          # KNIME workflow source
 ```
 
 Each `workflow/` folder is a standard KNIME workflow directory (`workflow.knime` + per-node `settings.xml`) with cached execution data stripped out to keep the repo lightweight — open it directly in KNIME Analytics Platform and re-execute to reproduce the results.
