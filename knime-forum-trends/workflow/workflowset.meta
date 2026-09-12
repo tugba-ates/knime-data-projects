@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is auto-generated and is overwritten each time the workflow is saved.
+    The metadata have moved to the `workflow-metadata.xml` file.-->
+<KNIMEMetaInfo nrOfElements="2" xmlns="http://www.knime.org/2.9/metainfo">
+    <element form="multiline" name="Comments" read-only="false">&lt;p>Real time analysis of KNIME's own community forum: pulls live topic data via the public Discourse API, parses JSON into a clean table, and analyzes the most active categories and trending keywords in recent discussion titles.&lt;/p></element>
+    <element form="text" name="Last Edited" read-only="true">2026-09-12 23:32:47 +0200</element>
+</KNIMEMetaInfo>

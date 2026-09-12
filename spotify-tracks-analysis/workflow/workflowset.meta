@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is auto-generated and is overwritten each time the workflow is saved.
+    The metadata have moved to the `workflow-metadata.xml` file.-->
+<KNIMEMetaInfo nrOfElements="2" xmlns="http://www.knime.org/2.9/metainfo">
+    <element form="multiline" name="Comments" read-only="false">&lt;p>End-to-end analysis of a Spotify tracks dataset (114K songs): data cleaning, genre-based popularity visualization, audio feature correlation analysis, and a Random Forest regression model predicting song popularity from audio features (R²=0.54).&lt;/p></element>
+    <element form="text" name="Last Edited" read-only="true">2026-09-12 23:29:10 +0200</element>
+</KNIMEMetaInfo>
