@@ -1,14 +1,14 @@
 # KNIME Data Projects
 
-Two end-to-end [KNIME Analytics Platform](https://www.knime.com/) workflows built to learn the tool hands-on: one classic data science pipeline, and one live-data project built around KNIME's own community forum.
+Two end to end [KNIME Analytics Platform](https://www.knime.com/) workflows built to learn the tool hands on: one classic data science pipeline, and one live data project built around KNIME's own community forum.
 
-Both workflows are also public on my KNIME Hub profile: **[hub.knime.com/tugbaates](https://hub.knime.com/tugbaates)** — open them there to explore the node graph interactively in the browser.
+Both workflows are also public on my KNIME Hub profile: **[hub.knime.com/tugbaates](https://hub.knime.com/tugbaates)**  open them there to explore the node graph interactively in the browser.
 
 ---
 
 ## 1. [Spotify Tracks Analysis](spotify-tracks-analysis)
 
-Cleans and analyzes a 114,000-song Spotify dataset, then trains a model that predicts a track's popularity from its audio features alone.
+Cleans and analyzes a 114,000 song Spotify dataset, then trains a model that predicts a track's popularity from its audio features alone.
 
 | | |
 |---|---|
@@ -24,7 +24,7 @@ Cleans and analyzes a 114,000-song Spotify dataset, then trains a model that pre
 
 ![Top genres by popularity](spotify-tracks-analysis/chart-top-genres.png)
 
-Pop-film, k-pop, and chill are the most consistently popular genres. A correlation analysis of the ten numeric audio features also showed a strong positive relationship between *energy* and *loudness*, and a strong negative relationship between *energy* and *acousticness* — both musically intuitive and useful signals for the regression model.
+Pop-film, k-pop, and chill are the most consistently popular genres. A correlation analysis of the ten numeric audio features also showed a strong positive relationship between *energy* and *loudness*, and a strong negative relationship between *energy* and *acousticness*  both musically intuitive and useful signals for the regression model.
 
 ---
 
@@ -50,9 +50,9 @@ Pulls live topics from KNIME's own public community forum via its Discourse API,
 
 ![Trending keywords](knime-forum-trends/chart-trending-keywords.png)
 
-The **KNIME Analytics Platform** category dominates recent activity by a wide margin. The most frequent keywords in topic titles — *excel, reader, connector, data, error, hub, business, python* — point to file I/O, connector configuration, and Python integration as the areas the community is currently most active around.
+The **KNIME Analytics Platform** category dominates recent activity by a wide margin. The most frequent keywords in topic titles  *excel, reader, connector, data, error, hub, business, python*  point to file I/O, connector configuration, and Python integration as the areas the community is currently most active around.
 
-*(One small real-world data-quality note: a Unicode character in one post's stylized "KNIME" was stripped by the punctuation-cleaning step to "knme" and had to be added to the stop-word list by hand — a small reminder that even clean-looking text data needs a second look.)*
+*(One small real world data-quality note: a Unicode character in one post's stylized "KNIME" was stripped by the punctuation cleaning step to "knme" and had to be added to the stop-word list by hand a small reminder that even clean looking text data needs a second look.)*
 
 ---
 
@@ -66,8 +66,6 @@ knime-data-projects/
     └── workflow/          # KNIME workflow source
 ```
 
-Each `workflow/` folder is a standard KNIME workflow directory (`workflow.knime` + per-node `settings.xml`) with cached execution data stripped out to keep the repo lightweight — open it directly in KNIME Analytics Platform and re-execute to reproduce the results.
+Each `workflow/` folder is a standard KNIME workflow directory (`workflow.knime` + per-node `settings.xml`) with cached execution data stripped out to keep the repo lightweight open it directly in KNIME Analytics Platform and re-execute to reproduce the results.
 
-## About
 
-Built by **Tuğba Ateş**, MSc Computer & Information Science student at the University of Konstanz, while learning KNIME Analytics Platform.
